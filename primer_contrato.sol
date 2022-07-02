@@ -18,4 +18,14 @@ contract nombre_contrato { // Creación del contrato
 
 /* Este es un bloque
 de comentarios, en este
-podemos especificar más de una linea */
+podemos especificar más de una linea 
+
+Formato Estandar de comentarios en Solidity
+
+   @title <titulo del contrato>
+   @author <Autor del contrato>
+   @notice <Explicar lo que hace el contrato o función>
+   @dev <Detalles adicionales sobre el contrato o función>
+   @param <nombre_parametro> <Describir para que sirve el parámetro>
+   @return <valor_retorno> <Describir para que sirve el valor de retorno de una función>
+*/
