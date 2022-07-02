@@ -12,3 +12,10 @@ contract nombre_contrato { // Creación del contrato
         token = new ERC20Basic(1000000); // Asignación de la cantidad de tokens.
     }
 }
+
+
+// Este es un comentario de una linea
+
+/* Este es un bloque
+de comentarios, en este
+podemos especificar más de una linea */
