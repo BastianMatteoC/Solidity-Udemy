@@ -21,4 +21,5 @@ contract public_private_internal{
     // Modificador internal
     bytes32 internal hash = keccak256(abi.encodePacked("testing"));
     address internal direccion = 0x9CF098507991Dbe0f291BE66bc07E7335E3dDD18;
+    
 }
