@@ -24,4 +24,14 @@ contract Arrays{
     function modificarArray(uint _numero) public{
         array_enteros_variable.push(_numero);
     }
+
+    // Modificar Array_personas, esta función lo que hará es que al pasar el nombre, este se añadirá al final del array
+    function modificarArrayPersonas(string _nombre, uint _edad) public{
+        array_personas.push(Persona(_nombre, _edad));
+    }
+
+    // Acceder a una posicion del array
+    function accederArray(uint _posicion) public view returns (uint){
+        return array_enteros[_posicion];
+    }
 }
