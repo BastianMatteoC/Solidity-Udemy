@@ -34,7 +34,7 @@ contract Cliente is Banco {
         returns (bool)
     {
         bool flag = true;
-        if (clientes[_nombre].dinero >= _cantidad) {
+        if (:weqclientes[_nombre].dinero >= _cantidad) {
             clientes[_nombre].dinero -= _cantidad;
         } else {
             flag = false;
