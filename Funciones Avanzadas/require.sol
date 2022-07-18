@@ -25,6 +25,6 @@ contract Require{
         for(uint i = 0; i < nombres.length; i++){
             require(keccak256(abi.encodePacked(_nombre))!= keccak256(abi.encodePacked(nombres[i])), "El nombre ya existe");
         }
-        nombres.push(_nombres);
+        nombres.push(_nombre);
     }
 }
