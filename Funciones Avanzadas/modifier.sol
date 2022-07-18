@@ -36,7 +36,7 @@ contract Modifer{
         _;
     }
 
-    function conducir(_edadUsuario) public mayorDeEdad(18, _edadUsuario){
+    function conducir(uint _edadUsuario) public mayorDeEdad(18, _edadUsuario){
         // logica de la funcion para conducir
     }
 }
